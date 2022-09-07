@@ -1,5 +1,8 @@
 # Server Chatroom
 
+This project is a chat app using **NodeJS/Express** and **[Socket.io](https://socket.io/fr/)** as websocket.  
+This repo is the back side, the front side is **[HERE](#)**.
+
 - install `yarn`
 - start `yarn start` : http://localhost:3001
 
