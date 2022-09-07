@@ -18,11 +18,6 @@ const port = 3001;
 
 const db = {
   users: {
-    'aaa': {
-      password: 'aaa',
-      username: 'aaauser',
-      color: '#f00',
-    },
     'bouclierman@herocorp.io': {
       password: 'jennifer',
       username: 'John',
@@ -119,8 +114,7 @@ let id = 0;
 io.on('connection', (ws) => {
   console.log('>> socket.io - connected');
   ws.on('send_message', (message) => {
-    // eslint-disable-next-line no-plusplus
-    message.id = ++id;
+    console.log('send_message', message);
     io.emit('send_message', message);
   });
 });

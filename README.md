@@ -3,23 +3,24 @@
 - install `yarn`
 - start `yarn start` : http://localhost:3001
 
-Routes :
-- `POST http://localhost:3001/login`
+## Routes :
 
-    => fournir un objet contenant email et password, par exemple 
-    ```
-    {
-        email: 'bouclierman@herocorp.io',
-        password: 'jennifer'
-    }
-    ```
+- **`POST http://localhost:3001/login`**
 
-   Identifiants valides :
-   - bouclierman@herocorp.io/jennifer
-   - acidman@herocorp.io/fructis
-   - captain.sportsextremes@herocorp.io/pingpong
+Provide an object with email and password:
 
+```js
+{
+    email: 'bouclierman@herocorp.io',
+    password: 'jennifer'
+}
+```
 
+Logins/passwords:
 
-- `POST http://localhost:3001/forgot`
-- `GET http://localhost:3001/theme/{email}`
+> bouclierman@herocorp.io/jennifer
+> acidman@herocorp.io/fructis
+> captain.sportsextremes@herocorp.io/pingpong
+
+- **`POST http://localhost:3001/forgot`**
+- **`GET http://localhost:3001/theme/{email}`**
