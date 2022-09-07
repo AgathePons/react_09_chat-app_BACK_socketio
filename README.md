@@ -18,8 +18,8 @@ Provide an object with email and password:
 
 Logins/passwords:
 
-> bouclierman@herocorp.io/jennifer
-> acidman@herocorp.io/fructis
+> bouclierman@herocorp.io/jennifer  
+> acidman@herocorp.io/fructis  
 > captain.sportsextremes@herocorp.io/pingpong
 
 - **`POST http://localhost:3001/forgot`**
